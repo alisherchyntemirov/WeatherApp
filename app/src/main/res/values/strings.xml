@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_35_c">35°C</string>
+    <string name="sunday_19_may_4_30pm">Sunday, 19 May | 4:30PM</string>
+    <string name="bishkek_kr">Bishkek KR</string>
+    <string name="sunny">Sunny</string>
+    <string name="_49">49%</string>
+    <string name="_6_03_am">6:03 AM</string>
+    <string name="man_21">Man,21</string>
+    <string name="_33">33</string>
+    <string name="_1_007mbar">1,007mBar</string>
+    <string name="_7_05pm">7:05PM</string>
+    <string name="tue_22">Tue,22</string>
+    <string name="_27_c">27°C</string>
+    <string name="_34km_h">34km/h</string>
+    <string name="_13h_1m">13h 1m</string>
+    <string name="wed_22">Wed,22</string>
+</resources>
