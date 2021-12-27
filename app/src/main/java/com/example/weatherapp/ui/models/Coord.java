@@ -11,8 +11,8 @@ public class Coord {
     private Double mLon;
 
     public Double getLat() {
-        return mLat;
-    }
+        return mLat; }
+
 
     public void setLat(Double lat) {
         mLat = lat;

@@ -8,11 +8,18 @@ import com.example.weatherapp.ui.models.WeatherModel;
 
 import java.util.ArrayList;
 
+import javax.inject.Inject;
+
+import dagger.hilt.android.lifecycle.HiltViewModel;
+import okhttp3.OkHttpClient;
+@HiltViewModel
 public class WeatherViewModel extends BaseViewModel {
-
     String city = "Bishkek";
-    private final WeatherRepository repository = new WeatherRepository();
-
+    private WeatherRepository repository;
+    @Inject
+    public WeatherViewModel(WeatherRepository repository){
+        this.repository =repository;
+    }
     MutableLiveData<WeatherModel> getWeather() {
         return repository.getWeather(city);
     }

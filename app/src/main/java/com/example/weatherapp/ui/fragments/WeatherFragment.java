@@ -11,14 +11,22 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.weatherapp.base.BaseFragment;
+import com.example.weatherapp.data.repositories.WeatherRepository;
 import com.example.weatherapp.databinding.FragmentWeatherBinding;
 import com.example.weatherapp.ui.models.Coord;
 
+import javax.inject.Inject;
 
+import dagger.hilt.android.AndroidEntryPoint;
+
+@AndroidEntryPoint
 public class WeatherFragment extends BaseFragment<WeatherViewModel, FragmentWeatherBinding> {
 
     private FragmentWeatherBinding binding;
     private WeatherViewModel viewModel;
+    public WeatherFragment(){
+
+    }
 
     @Nullable
     @Override
