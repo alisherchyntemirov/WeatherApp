@@ -10,7 +10,7 @@
     <ImageView
         android:layout_width="414dp"
         android:layout_height="259dp"
-        android:background="@drawable/sky" />
+        android:background="@drawable/city" />
 
     <androidx.cardview.widget.CardView
         android:layout_width="412dp"
@@ -40,7 +40,7 @@
             android:id="@+id/im_cloud"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:src="@drawable/vector"
+            android:src="@drawable/sunny"
             android:layout_marginTop="60dp"
             android:layout_marginStart="35dp"/>
 
@@ -58,7 +58,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="160dp"
             android:layout_marginStart="45dp"
-            android:src="@drawable/water" />
+            android:src="@drawable/hunidity" />
 
         <TextView
             android:id="@+id/humidity"
@@ -72,7 +72,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/timer"
+            android:src="@drawable/sunrise"
             android:layout_marginStart="50dp"
             android:layout_marginTop="260dp"/>
 
@@ -85,21 +85,8 @@
             android:layout_marginTop="289dp"
             android:layout_marginStart="40dp"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/sun"
-            android:layout_marginStart="55dp"
-            android:layout_marginTop="341dp"/>
 
-        <TextView
-            android:id="@+id/monday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/man_21"
-            android:textSize="20sp"
-            android:layout_marginStart="42dp"
-            android:layout_marginTop="377dp"/>
+
 
         <TextView
             android:id="@+id/degrees"
@@ -113,14 +100,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/degree"
+            android:src="@drawable/c"
             android:layout_marginStart="240dp"
             android:layout_marginTop="60dp"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/speed"
+            android:src="@drawable/pressure"
             android:layout_marginTop="160dp"
             android:layout_marginStart="179dp"/>
 
@@ -138,7 +125,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="180dp"
             android:layout_marginTop="260dp"
-            android:src="@drawable/thorns" />
+            android:src="@drawable/sunset" />
 
         <TextView
             android:id="@+id/sunset"
@@ -149,21 +136,7 @@
             android:layout_marginStart="165dp"
             android:textSize="20sp" />
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/photo"
-            android:layout_marginTop="341dp"
-            android:layout_marginStart="190dp" />
 
-        <TextView
-            android:id="@+id/tuesday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/tue_22"
-            android:textSize="20sp"
-            android:layout_marginTop="377dp"
-            android:layout_marginStart="170dp" />
 
         <TextView
             android:id="@+id/max_temperature"
@@ -202,7 +175,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/time"
+            android:src="@drawable/daytime"
             android:layout_marginTop="265dp"
             android:layout_marginStart="331dp"/>
 
@@ -215,20 +188,8 @@
             android:layout_marginStart="310dp"
             android:layout_marginTop="300dp"/>
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/wave"
-            android:layout_marginTop="360dp"
-            android:layout_marginStart="320dp"/>
 
-        <TextView
-            android:id="@+id/wednesday"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/wed_22"
-            android:layout_marginStart="313dp"
-            android:layout_marginTop="390dp"/>
+
 
     </androidx.cardview.widget.CardView>
 
