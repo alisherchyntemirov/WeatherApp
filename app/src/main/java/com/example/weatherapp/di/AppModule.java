@@ -22,6 +22,7 @@ public abstract class AppModule {
     public static WeatherRepository provideWeatherRepository(WeatherApiService apiService){
         return new WeatherRepository(apiService );
     }
+
     @Provides
     public static WeatherApiService provideApi(Retrofit retrofit){
         return retrofit .create(WeatherApiService.class );
@@ -34,6 +35,7 @@ public abstract class AppModule {
                 .client(client)
                 .build();
     }
+
     @Provides
     public static OkHttpClient provideOkhttpClient() {
        return new OkHttpClient.Builder()

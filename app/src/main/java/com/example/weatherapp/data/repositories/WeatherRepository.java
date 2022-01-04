@@ -2,11 +2,8 @@ package com.example.weatherapp.data.repositories;
 
 import androidx.lifecycle.MutableLiveData;
 
-import com.example.weatherapp.App;
 import com.example.weatherapp.data.network.apiservices.WeatherApiService;
-import com.example.weatherapp.ui.models.WeatherModel;
-
-import java.util.ArrayList;
+import com.example.weatherapp.models.WeatherModel;
 
 import javax.inject.Inject;
 
@@ -19,6 +16,7 @@ public class WeatherRepository {
 
     String apiKey = "34f284ef687268abb84bca32a3522cf7";
     String units = "metric";
+
     @Inject
     public WeatherRepository(WeatherApiService apiService) {
         this.apiService=apiService;

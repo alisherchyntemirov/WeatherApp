@@ -23,6 +23,7 @@ public abstract class BaseFragment<ViewModel extends BaseViewModel, Binding exte
         initialize();
         setUpRequests();
         setUpObserves();
+
     }
 
     protected void initialize() {
